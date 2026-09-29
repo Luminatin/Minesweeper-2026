@@ -33,10 +33,10 @@ void Execute(int r, int c, int type);
  * after InitMap() has read the map scale. It reads and executes the first step provided by the input (see README).
  */
 void InitGame() {
-  // TODO (student): Initialize all your global variables!
-  int first_row, first_column;
-  std::cin >> first_row >> first_column;
-  Execute(first_row, first_column, 0);
+	// TODO (student): Initialize all your global variables!
+	int first_row, first_column;
+	std::cin >> first_row >> first_column;
+	Execute(first_row, first_column, 0);
 }
 
 /**
@@ -50,7 +50,7 @@ void InitGame() {
  *     01?
  */
 void ReadMap() {
-  // TODO (student): Implement me!
+	// TODO (student): Implement me!
 }
 
 /**
@@ -60,10 +60,10 @@ void ReadMap() {
  * mind and make your decision here! Caution: you can only execute once in this function.
  */
 void Decide() {
-  // TODO (student): Implement me!
-  // while (true) {
-  //   Execute(0, 0);
-  // }
+	// TODO (student): Implement me!
+	// while (true) {
+	//   Execute(0, 0);
+	// }
 }
 
 #endif

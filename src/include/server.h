@@ -13,7 +13,7 @@
 int rows;         // The count of rows of the game map. You MUST NOT modify its name.
 int columns;      // The count of columns of the game map. You MUST NOT modify its name.
 int total_mines;  // The count of mines of the game map. You MUST NOT modify its name. You should initialize this
-                  // variable in function InitMap. It will be used in the advanced task.
+// variable in function InitMap. It will be used in the advanced task.
 int game_state;  // The state of the game, 0 for continuing, 1 for winning, -1 for losing. You MUST NOT modify its name.
 
 /**
@@ -29,8 +29,8 @@ int game_state;  // The state of the game, 0 for continuing, 1 for winning, -1 f
  * would be initialized, with all the blocks unvisited.
  */
 void InitMap() {
-  std::cin >> rows >> columns;
-  // TODO (student): Implement me!
+	std::cin >> rows >> columns;
+	// TODO (student): Implement me!
 }
 
 /**
@@ -64,7 +64,7 @@ void InitMap() {
  * @note For invalid operation, you should not do anything.
  */
 void VisitBlock(int r, int c) {
-  // TODO (student): Implement me!
+	// TODO (student): Implement me!
 }
 
 /**
@@ -101,7 +101,7 @@ void VisitBlock(int r, int c) {
  * @note For invalid operation, you should not do anything.
  */
 void MarkMine(int r, int c) {
-  // TODO (student): Implement me!
+	// TODO (student): Implement me!
 }
 
 /**
@@ -121,7 +121,7 @@ void MarkMine(int r, int c) {
  * And the game ends (and player wins).
  */
 void AutoExplore(int r, int c) {
-  // TODO (student): Implement me!
+	// TODO (student): Implement me!
 }
 
 /**
@@ -134,8 +134,8 @@ void AutoExplore(int r, int c) {
  * @note If the player wins, we consider that ALL mines are correctly marked.
  */
 void ExitGame() {
-  // TODO (student): Implement me!
-  exit(0);  // Exit the game immediately
+	// TODO (student): Implement me!
+	exit(0);  // Exit the game immediately
 }
 
 /**
@@ -163,7 +163,7 @@ void ExitGame() {
  * @note Use std::cout to print the game map, especially when you want to try the advanced task!!!
  */
 void PrintMap() {
-  // TODO (student): Implement me!
+	// TODO (student): Implement me!
 }
 
 #endif
